@@ -1,0 +1,12 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+.textContent {
+    max-width: 30em;
+}
