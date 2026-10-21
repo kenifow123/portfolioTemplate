@@ -1,7 +1,7 @@
 import styles from './Card.module.css'
 
 
-const Card = ({title, imageUrl, projectText}) => {
+const ProjectCard = ({title, imageUrl, projectText}) => {
 
 
     return (
@@ -17,4 +17,4 @@ const Card = ({title, imageUrl, projectText}) => {
     )
 }
 
-export default Card;
+export default ProjectCard;

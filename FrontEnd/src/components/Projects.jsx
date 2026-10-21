@@ -1,5 +1,5 @@
 import styles from './Projects.module.css'
-import Card from './Card.jsx'
+import ProjectCard from './ProjectCard.jsx'
 
 const Projects = () => {
     return (
@@ -7,13 +7,13 @@ const Projects = () => {
             <div className={styles.container}>
                 <h1>Projects</h1>
                 <div className={styles.cardContainer}>
-                    <Card title={'projectTitle'} imageUrl={'imageUrl'} projectText={'projectText'} />
-                    <Card title={'projectTitle'} imageUrl={'imageUrl'} projectText={'projectText'} />
-                    <Card title={'projectTitle'} imageUrl={'imageUrl'} projectText={'projectText'} />
-                    <Card title={'projectTitle'} imageUrl={'imageUrl'} projectText={'projectText'} />
-                    <Card title={'projectTitle'} imageUrl={'imageUrl'} projectText={'projectText'} />
-                    <Card title={'projectTitle'} imageUrl={'imageUrl'} projectText={'projectText'} />
-                    <Card title={'projectTitle'} imageUrl={'imageUrl'} projectText={'projectText'} />
+                    <ProjectCard title={'projectTitle'} imageUrl={'imageUrl'} projectText={'projectText'} />
+                    <ProjectCard title={'projectTitle'} imageUrl={'imageUrl'} projectText={'projectText'} />
+                    <ProjectCard title={'projectTitle'} imageUrl={'imageUrl'} projectText={'projectText'} />
+                    <ProjectCard title={'projectTitle'} imageUrl={'imageUrl'} projectText={'projectText'} />
+                    <ProjectCard title={'projectTitle'} imageUrl={'imageUrl'} projectText={'projectText'} />
+                    <ProjectCard title={'projectTitle'} imageUrl={'imageUrl'} projectText={'projectText'} />
+                    <ProjectCard title={'projectTitle'} imageUrl={'imageUrl'} projectText={'projectText'} />
 
                 </div>
             </div>

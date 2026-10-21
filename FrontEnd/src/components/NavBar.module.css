@@ -26,3 +26,7 @@ ul > li {
     text-decoration: none;
 }
 
+#navigation {
+    padding: .5em;
+    background-color: lightgray;
+}
